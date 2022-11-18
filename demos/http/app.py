@@ -6,6 +6,7 @@
     :license: MIT, see LICENSE for more details.
 """
 import os
+
 try:
     from urlparse import urlparse, urljoin
 except ImportError:
@@ -112,7 +113,7 @@ body: Don't forget the party!
         body = {"note": {
             "to": "Peter",
             "from": "Jane",
-            "heading": "Remider",
+            "heading": "Reminder",
             "body": "Don't forget the party!"
         }
         }

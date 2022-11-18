@@ -21,7 +21,7 @@ def index():
 @app.route('/hi')
 @app.route('/hello')
 def say_hello():
-    return '<h1>Hello, Flask!</h1>'
+    return '<h1>Hello, Flask Framework!</h1>'
 
 
 # dynamic route, URL variable default
